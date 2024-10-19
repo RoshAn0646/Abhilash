@@ -1,7 +1,7 @@
-# ABHILASH/urls.py
 from django.urls import path
-from .views import travel_experience_view
+from .views import home
 
 urlpatterns = [
-    path('', travel_experience_view, name='travel_experience'),
+    path('', home, name='home'),
 ]
+
